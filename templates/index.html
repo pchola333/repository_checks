@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <h1>{% block title %} Purchases In The Store {% endblock %}</h1>
+    {% for check in checks %}
+        <div class='check'>
+            <h3>#{{ check[0] }} - {{ check[1] }} on {{ check[2] }}</h3>
+            <i><h2><p>{{ check[3] }} ILS</p><h2></i>
+            <p class='review'>({{ check[4] }})</p>
+            <i><h5><p>Added {{ check[5] }}</p><h5></i>
+        </div>
+    {% endfor %}
+
+
+{% endblock %}
