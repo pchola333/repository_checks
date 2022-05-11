@@ -1,4 +1,4 @@
-name: CI-CD-PipeLine-to-AWS-Elastic Beanstalk
+name: CI-CD-PipeLine-to-AWS-Elastic-Beanstalk
 env:
   EB_PACKAGE_S3_BUCKET_NAME : "jenya-flask-application-packages"
   EB_APPLICATION_NAME       : "MyFlask"
