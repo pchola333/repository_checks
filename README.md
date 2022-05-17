@@ -1,2 +1,3 @@
 # repository_checks
-lknrhbl;krnb;KRMEN
+
+https://github.com/pchola333/repository_checks/
